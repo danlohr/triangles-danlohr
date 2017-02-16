@@ -1,0 +1,17 @@
+div.block{padding: 2px, 4px, 2px, 4px;
+        margin:auto;
+        border: 2px;
+        height: 120px;
+        font-size: 1.5em;
+        font-family: calibri, serif;
+
+}
+#firstDiv {color: white;
+          background-color: #917F7F;
+}
+#secondDiv {color: #B51A1A;
+          background-color: white
+}
+#thirdDiv {color: #94AC96;
+          background-color: #219F29;
+}
