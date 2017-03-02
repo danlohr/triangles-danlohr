@@ -20,7 +20,7 @@ var triangle = {
   base: 30,
   height: 40,
   canvasId: canvas,
-  calcArea: function() {
+  calcArea: function(base, height) {
    return (this.base * this.height * .5)
  }
  calcHypotenuse: function(this.base, this.height) {
