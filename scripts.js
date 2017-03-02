@@ -12,3 +12,26 @@ function calcHypotenuse(b, h) {
 }
 
 var hyp = console.log(calcHypotenuse);
+var userMessage = "The hypotenuse is ";
+document.getElementById("secondDiv").innerHTML = userMessage + hyp;
+
+/* Part 3: Triangle Object */
+var triangle = {
+  base: 30,
+  height: 40,
+  canvasId: canvas,
+  calcAvg: calcArea() {
+   return (this.base * this.height * .5)
+ }
+ calcAvg: calcHypotenuse(this.base, this.height) {
+   return Math.sqrt(this.base * this.base + this.height * this.height)
+ }
+ drawIt: drawTriangle(this.base, this.height, this.canvasId);
+}
+
+var objectAreaMsg = "The area is " + triangle.calcArea();
+var objectHypMsg = "The hypotenuse is " + triangle.calcHypotenuse();
+
+document.getElementById("thirdDiv").innerHTML = objectAreaMsg /n objectHypMsg;
+
+triangle.drawIt();
