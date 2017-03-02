@@ -20,13 +20,13 @@ var triangle = {
   base: 30,
   height: 40,
   canvasId: canvas,
-  calcAvg: calcArea() {
+  calcArea: function() {
    return (this.base * this.height * .5)
  }
- calcAvg: calcHypotenuse(this.base, this.height) {
+ calcHypotenuse: function(this.base, this.height) {
    return Math.sqrt(this.base * this.base + this.height * this.height)
  }
- drawIt: drawTriangle(this.base, this.height, this.canvasId);
+ drawIt: function(drawTriangle(this.base, this.height, this.canvasId));
 }
 
 var objectAreaMsg = "The area is " + triangle.calcArea();
